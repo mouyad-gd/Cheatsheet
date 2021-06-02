@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./style.css" <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Xanh+Mono&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <img src="./Images/logo_noBackground.png" width="50" height="50" class="toplogo" alt="logo" loading="lazy">
+        <a href="index.html" id="logo">Mouyad Abduljabar - CheatSheet</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="Journal_Notes.html">Journal Notes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="seventyonezerofiveTemplate.html">7105 Template</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Work_Exemption.html">Work Exemption</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Age Calculator</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://mouyad-gd.github.io/homework3/" target="_blank">Password generator
+                        tool</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <main class="afterNav">
+        <div id="container">
+            <h2>Age Calculator</h2>
+            <form id="form" autocomplete="off">
+                <h5>Input Must Be In Number</h5>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="date">
+                            Date Of Birth:
+                        </label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" maxlength="2" size="2" id="date" placeholder="Day" required />
+                        <input type="text" maxlength="2" size="2" id="month" placeholder="Month" autocomplete="on"
+                            required />
+                        <input type="text" maxlength="4" size="4" id="year" placeholder="Year" required />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-1">
+                        <label for="date2">
+                            Today's Date:
+                        </label>
+                    </div>
+
+                    <div class="col-2">
+                        <input type="text" maxlength="2" size="2" id="date2" placeholder="Date" />
+                        <input type="text" maxlength="2" size="2" id="month2" placeholder="Month" />
+                        <input type="text" maxlength="4" size="4" id="year2" placeholder="Year" />
+                    </div>
+                </div>
+                <br>
+                <button class="calbtn draw-border" id="calbtn">Calculate</button>
+                <br />
+                <span id="age"></span><br>
+                <span id="months"></span><br>
+                <span id="days"></span><br>
+            </form>
+        </div>
+
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-muted-footer text-center">
+            &copy; Copyright - <a href="https://linkedin.com/in/mouyad" target="_blank"> Mouyad Abduljabar</a>
+        </p>
+    </footer>
+
+
+    <script src="secondlogic.js"></script>
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+</html>
